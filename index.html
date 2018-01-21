@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<!--Google Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Lato|Reenie+Beanie' rel='stylesheet' type='text/css'>
+
+		<!--Font Awesome-->
+		<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+		<!----------------------------CSS stylesheets-------------------------------------------->
+		<!--Bootstrap CSS files latest compiled and minified-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous" />
+
+
+		<!--CUSTOM stylesheets-->
+		<link rel="stylesheet" href="style.css" />
+
+
+		<!----------------------------Javascript-------------------------------------------->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!--latest compiled and minified Bootstrap javascript-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+		<!--CUSTOM JS-->
+
+		<!--Page Title-->
+		<title>Home</title>
+
+		<!-- Google Analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+							Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-64861502-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+
+	<!--Navbar for STEMulus Interview-->
+
+	<header class="content-header">
+		<nav class="nav navbar">
+			<div class="navbar-header">
+				<a id="logo" class="navbar-brand" href="index.html">STEMulus Interview</a>
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar" aria-expanded="false">
+					<span class="sr-only">Main Menu</span>
+					<span class="fa fa-social fa-bars"></span>
+				</button>
+			</div>
+			​
+			​
+			<div class="collapse navbar-collapse navbar-right" id="my-navbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html" class="menu-item">home</a></li>
+					<li><a href="#intro" class="menu-item">intro</a></li>
+					<li><a href="#encryption" class="menu-item">encryption</a></li>
+					<li><a href="#wrap up" class="menu-item">wrap up</a></li>
+			</ul>
+			</div>
+		</nav>
+	</header>
+
+	<body class="sfooter">
+		<main class="sfooter-content">
+			<div class="container">
+
+				<div class="jumbotron"> <!--opening title section -->
+					<h2>Welcome to Introductory Security!</h2>
+					<p>(With a concentration on RSA encryption)</p>
+
+					<br />
+
+					<p>@author Kimberly Keller</p>
+					<p>@date July, 2016</p>
+				</div> <!-- end jumbotron -->
+
+				<div class="row"> <!--opening section on security -->
+
+					<div class="col-md-12">
+
+						<a name="intro"><h3>What is Web Security?</h3></a>
+
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>Confidentiality</h4>
+						<p>Keeping data and information private. </p>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>Accessibility</h4>
+						<p>Allowing data to be accessed by the appropriate parties when called upon.</p>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>Integrity</h4>
+						<p>Making sure the data remains unaltered by unauthorized parties</p>
+					</div>
+
+
+				</div> <!-- end row-->
+
+				<div class="row">
+
+					<div class="col-md-12">
+						<h3>Who Does Web Security Effect?</h3>
+					</div>
+
+					<div class="col-md-6 text-box">
+						<img class="img-responsive" src="img/outline.svg" alt="Group of people">
+					</div>
+
+					<div class="col-md-6 text-box">
+						<p>In short, security effects everyone. However today we're going to focus on how it impacts
+						developers and end users. Everyone today sends sensitive information over the internet on a regular basis,
+						whether it's confidential work information or usernames, passwords, social security numbers, etc. Hopefully when we send this
+						information we're protecting ourselves and being protected by the engineers who build our software. </p>
+
+						<h4>Some Key Players</h4>
+						<ul>
+							<li>Developers</li>
+							<li>Software Architects</li>
+							<li>System Administrators</li>
+							<li><strong>End Users</strong></li>
+						</ul>
+					</div>
+				</div> <!--end row -->
+
+
+				<div class="row"> <!--opening section on rsa encryption -->
+
+					<div class="col-md-12">
+
+						<a name="encryption"><h3>What is RSA Encryption?</h3></a>
+
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>History</h4>
+
+						<p>
+							<strong>Encryption</strong>, in short, is scrambling data in order to make it difficult to understand.
+							Cryptography, the study of making things secret, is not only fun but extremely relevant to the modern information age.
+
+							<br />
+
+							<strong>RSA Encryption</strong> is a specific algorithm for scrambling data. RSA stands for Ron Rivest, Adi Shamir and Leonard Adleman who
+							publicly declared the method in 1978. It is the most widely used method of encryption and underscores common practices like PGP, SSH, and SSL.
+						</p>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>Technical</h4>
+						<p>
+							<strong>RSA Encryption</strong> is considered asymmetric encryption, which relies on each user having both a public and private key. Asymmetric encryption is considered more secure because it doesn't
+							require the passage of sensitive information, public keys are by definition public and shareable. We'll dive more deeply into how the algorithm works in a moment.
+						</p>
+
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<h4>Importance</h4>
+
+						<p>Why does this matter? To the developer, having a deeper knowledge of the standard encryption methods allows for a more robust understanding of information security. For
+						the end user or day to day person, having a foundational understanding of the most common encryption practice is critical to understanding how sensitive information is (or should be) handled. </p>
+					</div>
+
+
+				</div> <!-- end row-->
+
+
+				<div class="row">
+
+					<div class="col-md-12">
+						<h3>A Deeper Look At The Technical</h3>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<i class="fa fa-lock text-center" aria-hidden="true"></i>
+
+						<h4>The Lock Problem</h4>
+
+						<p>Before 1970, encryption was done symmetrically. Meaning a private key was exchanged to encrypt and decrypt messages.
+						The question asymmetric encryption answers is, what if we don't have to share a private key? Instead, we publish a "lock". In 1978 a mathematical model was created to do just this.</p>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<i class="fa fa-arrows-h text-center" aria-hidden="true"></i>
+
+						<h4>One Way Functions</h4>
+
+						<p>A full mathematical explanation is out of the scope of this lecture, however I do want to touch on the concept of one way functions. This means something that is easy to do in one direction and difficult to do in the opposite direction.
+						For this purpose, I'm going to use a color analogy to explain the process of RSA encryption. </p>
+					</div>
+
+					<div class="col-md-4 text-box">
+
+						<i class="fa fa-paint-brush text-center" aria-hidden="true"></i>
+
+						<h4>The Color Analogy</h4>
+
+						<p>The color analogy shows how private information can be shared, encrypted and decrypted, without a third party learning the content of the message, and without sharing the decryption method or key.
+						</p>
+						<p><strong>Some Key Points</strong></p>
+						<ul>
+							<li>Private vs. Public "Color" (key)</li>
+							<li>Inverse Colors</li>
+							<li>Eve is always listening</li>
+						</ul>
+
+					</div>
+				</div> <!--end row -->
+
+				<div class="row">
+					<div class="col-md-12 text-box text-center">
+						<img class="img-responsive" src="img/rsa-demo2.png" alt="color analogy">
+					</div>
+				</div> <!--end row -->
+
+				<div class="row">
+
+					<div class="col-md-12">
+						<a name="wrap up"><h3>Final Thoughts</h3></a>
+					</div>
+
+					<div class="col-md-6 text-box">
+						<iframe width="420" height="315" src="https://www.youtube.com/embed/wXB-V_Keiu8" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-md-6 text-box">
+						<h4>
+							Encrypt your data, protect yourself!
+						</h4>
+
+						<p>For more information on public key cryptography, watch the video included. It does a good job with the math section as well as takes credit for the
+							color analogy presented here.</p>
+
+						<p><strong>Credits:</strong></p>
+						<ul>
+							<li><a href="https://www.youtube.com/channel/UCotwjyJnb-4KW7bmsOoLfkg">The Art of the Problem</a></li>
+							<li><a href="https://bootcamp-coders.cnm.edu/class-materials/lecture-slides/security.pdf">Dylan McDonald Security Slides</a></li>
+						</ul>
+
+					</div>
+				</div>
+
+
+
+
+			</div> <!-- end container-->
+		</main>
+	</body>
+
+	<footer>
+
+		<div class="col-md-12 text-box">
+			Presented by Kimberly Keller
+		</div>
+
+	</footer>
